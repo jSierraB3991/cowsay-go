@@ -1,0 +1,8 @@
+#Create releaser for go project
+# https://goreleaser.com/install/
+
+    create file configuration -> goreleaser init
+    -> goreleaser release --snapshot
+
+
+
