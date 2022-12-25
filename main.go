@@ -36,6 +36,7 @@ func printSay(message string) {
 		final = len(message)
 	}
 
+	fmt.Printf(" ")
 	for i := 0; i <= final; i++ {
 		fmt.Printf("-")
 	}
@@ -52,6 +53,7 @@ func printSay(message string) {
 		initial = final
 		final = initial + maxCount
 	}
+	fmt.Printf(" ")
 	for i := 0; i <= final; i++ {
 		fmt.Printf("-")
 	}
