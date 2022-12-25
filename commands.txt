@@ -2,7 +2,10 @@
 # https://goreleaser.com/install/
 
     create file configuration -> goreleaser init
-    -> goreleaser release --snapshot
+    create differente release -> goreleaser release --snapshot --rm-dist
 
 
+#push on tag, for github actions create release
+git tag -s -m "Release v0.0.1" v0.0.1 HEAD
+git push --tags
 
